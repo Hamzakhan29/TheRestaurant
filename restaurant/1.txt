@@ -1,0 +1,10 @@
+Build and Run Floodlight
+Then, to build and run Floodlight within the VM:
+floodlight$ ant
+floodlight$ java -jar target/floodlight.jar
+Eclipse
+The VM also comes with the Eclipse IDE, which can be used to develop and run Floodlight. The Floodlight project is already imported as a project in Eclipse in the VM image, but in case you ever run 'ant clean', you can easily rebuild the Eclipse project by running the following:
+floodlight$ ant eclipse
+Although you should not need them (unless you remove the project from Eclipse), additional instructions on how to set up Floodlight within Eclipse can be found here.
+Wireshark
+The Floodlight VM comes equipped with Wireshark. You can run it by browsing to it in the Ubuntu GUI or through the terminal.
